@@ -1,0 +1,53 @@
+{
+  "name": "tinyspec-cloud",
+  "version": "0.0.0",
+  "description": "A CLI for Tinyspec Cloud deployment",
+  "main": "index.js",
+  "bin": {
+    "tinyspec-cloud": "./bin/tinyspec-cloud.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "js-yaml": "^3.12.0",
+    "superagent": "^4.0.0-beta.5",
+    "yargs": "^12.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajaxy/tinyspec-cloud.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "openapi",
+    "swagger",
+    "specification",
+    "documentation",
+    "models",
+    "definitions",
+    "endpoints",
+    "paths"
+  ],
+  "author": "Alexander Zinchuk (alexander@zinchuk.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ajaxy/tinyspec-cloud/issues"
+  },
+  "homepage": "https://github.com/Ajaxy/tinyspec-cloud#readme",
+  "yargs": {
+    "short-option-groups": false,
+    "camel-case-expansion": false,
+    "dot-notation": false,
+    "parse-numbers": false,
+    "boolean-negation": false
+  }
+}
