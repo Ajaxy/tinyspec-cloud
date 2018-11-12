@@ -9,7 +9,7 @@ access its auto-generated versions in different formats (HTML, PDF, YAML, JSON).
 #### Usage:
 
 ```bash
-npm i tinyspec-cloud
+npm i -g tinyspec-cloud
 
 tinyspec-cloud --name my-project
 ```
