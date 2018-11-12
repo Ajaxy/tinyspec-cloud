@@ -33,3 +33,5 @@ tinyspec-cloud --name my-project
 
 #### More info:
 https://tinyspec.cloud
+
+https://github.com/Ajaxy/tinyspec
