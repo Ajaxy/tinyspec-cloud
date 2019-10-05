@@ -6,7 +6,11 @@
 This CLI allows you to deploy your OpenAPI specification to [**Tinyspec Cloud**](https://tinyspec.cloud) and then
 access its auto-generated versions in different formats (HTML, PDF, YAML, JSON).
 
-#### Usage:
+
+### Demo
+https://wearable-coach.tinyspec.cloud/dev
+
+### Quick Start
 
 ```bash
 npm i -g tinyspec-cloud
@@ -14,7 +18,7 @@ npm i -g tinyspec-cloud
 tinyspec-cloud --name my-project
 ```
 
-#### Result example:
+**Result example:**
 > 🎉 Congratulations!
 >
 > Your project **my-project** is created in **Tinyspec Cloud**.
@@ -31,7 +35,17 @@ tinyspec-cloud --name my-project
 >
 > If you lose your key, you won't be able to publish updates to your project.
 
-#### More info:
-https://tinyspec.cloud
+### Usage
+```
+Options:
+  --name    | -n  Project Name (required)
+  --version | -v  Project Version
+  --key     | -k  Project Secret Key (required for subsequent calls)
+  --source  | -s  Source OpenAPI specification file in YAML or JSON format [default: "openapi.yaml"]
+  --help    | -h  Show help
+```
+You can also set the same options using **environment variables** prefixed by `TINYSPEC_` or in a **config file** `tinyspec.json` located in a directory where you run `tinyspec-cloud`.
 
-https://github.com/Ajaxy/tinyspec
+### More info:
+- [Tinyspec repository](https://github.com/Ajaxy/tinyspec)
+- [tinyspec.cloud](https://tinyspec.cloud)
