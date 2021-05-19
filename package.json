@@ -1,6 +1,6 @@
 {
   "name": "tinyspec-cloud",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI for Tinyspec Cloud deployment",
   "main": "index.js",
   "bin": {
